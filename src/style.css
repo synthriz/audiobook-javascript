@@ -1,0 +1,68 @@
+body {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d6d6ea;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#capa {
+    border-radius: 10px;
+}
+#capitulo {
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 0.5rem
+}
+
+#nome-autor {
+    margin-top: 0;
+}
+
+.container-aplicativo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #fff; 
+  border-radius: 10px; 
+  padding: 50px; 
+}
+
+button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.music-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#informacoes-faixa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0; 
+  font-size: 1rem; 
+}
+
+#anterior,
+#proximo {
+  font-size: 2rem; 
+}
+
+#play-pause {
+  font-size: 4rem;
+}
+
+#container-botoes {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
